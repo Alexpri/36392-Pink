@@ -56,8 +56,8 @@
         <h3  class="features__title">Николай Петров</h3>
         <p class="features__info">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
       </article>
-      <div class="reviews-slider__pagination">
-        <i class="reviews-slider__pagination--active"></i>
+      <div class="pagi">
+        <i class="pagi--active"></i>
         <i></i>
         <i></i>
       </div>
@@ -65,42 +65,62 @@
   </section>
   <section class="price">
     <div class="price-slider">
-      <div class="price-slider__item">
-        <header class="price-slider__header">
-          <h3 class="price-slider__title">Минимальный</h3>
-          <p class="reviews-slider__count">1,99 USD</p>
-        </header>
-        <div class="price-slider__info">
-          <p class="price-slider__text">Розовый фильтр<i class="price-slider__icon price-slider__icon--check"></i></p>
-          <p class="price-slider__text">Смайлики<i class="price-slider__icon price-slider__icon--check"></i></p>
-          <p class="price-slider__text">Комментарии<i class="price-slider__icon price-slider__icon--cancel"></i></p>
-        </div>
-      </div>
-      <div class="price-slider__item">
-        <header class="price-slider__header price-slider__header--hit">
-          <h3 class="price-slider__title">Стандарт</h3>
-          <p class="reviews-slider__count">3,99 USD</p>
-        </header>
-        <div class="price-slider__info">
-          <p class="price-slider__text">Розовый фильтр<i class="price-slider__icon price-slider__icon--check"></i></p>
-          <p class="price-slider__text">Смайлики<i class="price-slider__icon price-slider__icon--cancel"></i></p>
-          <p class="price-slider__text">Комментарии<i class="price-slider__icon price-slider__icon--cancel"></i></p>
-        </div>
-      </div>
-      <div class="price-slider__item">
-        <header class="price-slider__header">
-          <h3 class="price-slider__title">Премиум</h3>
-          <p class="reviews-slider__count">5,99 USD</p>
-        </header>
-        <div class="price-slider__info">
-          <p class="price-slider__text">Розовый<i class="price-slider__icon price-slider__icon--check"></i></p>
-          <p class="price-slider__text">Смайлики<i class="price-slider__icon price-slider__icon--check"></i></p>
-          <p class="price-slider__text">Комментарии<i class="price-slider__icon price-slider__icon--check"></i></p>
-        </div>
-      </div>
-      <div class="reviews-slider__pagination">
+      <ul>
+        <li>
+          <tr>
+            <th>Минимальный<span class="price-slider__count">1,99 USD</span></th>
+          </tr>
+          <tr>
+            <td>Розовый фильтр</td>
+            <td><span class="price-slider__icon price-slider__icon--check"></span></td>
+          </tr>
+          <tr>
+            <td>Смайлики</td>
+            <td><span class="price-slider__icon price-slider__icon--check"></span></td>
+          </tr>
+          <tr>
+            <td>Комментарии</td>
+            <td><span class="price-slider__icon price-slider__icon--cancel"></span></td>
+          </tr>
+        </li>
+        <li>
+          <tr>
+            <th>Стандарт<span class="price-slider__count">3,99 USD</span></th>
+          </tr>
+          <tr>
+            <td>Розовый фильтр</td>
+            <td><span class="price-slider__icon price-slider__icon--check"></span></td>
+          </tr>
+          <tr>
+            <td>Смайлики</td>
+            <td><span class="price-slider__icon price-slider__icon--cancel"></span></td>
+          </tr>
+          <tr>
+            <td>Комментарии</td>
+            <td><span class="price-slider__icon price-slider__icon--cancel"></span></td>
+          </tr>
+        </li>
+         <li>
+          <tr>
+            <th>Премиум<span class="price-slider__count">5,99 USD</span></th>
+          </tr>
+          <tr>
+            <td>Розовый фильтр</td>
+            <td><span class="price-slider__icon price-slider__icon--check"></span></td>
+          </tr>
+          <tr>
+            <td>Смайлики</td>
+            <td><span class="price-slider__icon price-slider__icon--check"></span></td>
+          </tr>
+          <tr>
+            <td>Комментарии</td>
+            <td><span class="price-slider__icon price-slider__icon--check"></span></td>
+          </tr>
+        </li>
+      </ul>
+      <div class="pagi">
         <i></i>
-        <i class="reviews-slider__pagination--active"></i>
+        <i class="pagi--active"></i>
         <i></i>
       </div>
     </div>
@@ -108,14 +128,14 @@
   <footer class="footer">
     <div class="contact">
       <h2 class="title-h2">Остались вопросы? Свяжитесь с нами!</h2>
-      <h3  class="features__title"></h3>
+      <h3  class="features__title">Звоните:</h3>
       <p class="contact__info">8 (800) 1000 900</p>
-      <h3  class="features__title"></h3>
+      <h3  class="features__title">Пишите:</h3>
       <p class="contact__info">hello@pinkapp.ru</p>
-      <h3  class="features__title"></h3>
+      <h3  class="features__title">Приезжайте в гости:</h3>
       <p class="contact__info">Санкт-Петербург, Невский проспект, д. 20</p>
     </div>
-    <div class="footer__map"></div>
+    <div class="map"></div>
   </footer>
   </div>
 
